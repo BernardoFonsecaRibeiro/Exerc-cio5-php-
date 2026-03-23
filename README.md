@@ -29,7 +29,8 @@ O projeto visa consolidar o aprendizado e podem ser utilizados como portfólio p
    ```bash
 web gerador.php
    ```
-jokenPO.css
+ ```bash
+web jokenPO.css
    ```
 ---
 ## 📂 Estrutura do Repositório
