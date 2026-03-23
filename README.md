@@ -48,22 +48,18 @@ O projeto visa consolidar o aprendizado e podem ser utilizados como portfólio p
 ---
 ## 📖 Exemplos de Código
 ```bash
-//<?php
-
-   // if ($_SERVER["REQUEST_METHOD"] == "POST") {
-   
-     //   $valor_real = floatval($_POST["valor_real"]);
-     
-    //    $cotacao_usd = 5.21; 
+<?php
+ if ($_SERVER["REQUEST_METHOD"] == "POST") {
+   $valor_real = floatval($_POST["valor_real"]);
+     $cotacao_usd = 5.21; 
+        $valor_usd = $valor_real / $cotacao_usd;
         
-    //    $valor_usd = $valor_real / $cotacao_usd;
+       $valor_real_formatado = number_format($valor_real, 2, ",", ".");
+      $valor_usd_formatado = number_format($valor_usd, 2, ",", ".");
         
-    //    $valor_real_formatado = number_format($valor_real, 2, ",", ".");
-    //    $valor_usd_formatado = number_format($valor_usd, 2, ",", ".");
-        
-    //    echo "<p>R$ $valor_real_formatado equivalem a US$ $valor_usd_formatado</p>";
-   // }
-   // ?>
+    echo "<p>R$ $valor_real_formatado equivalem a US$ $valor_usd_formatado</p>";
+ }
+?>
 ```
 ---
 ## 🏆 Autor(es)
