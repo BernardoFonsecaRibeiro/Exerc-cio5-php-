@@ -30,7 +30,7 @@ O projeto visa consolidar o aprendizado e podem ser utilizados como portfólio p
    web gerador.php
    ```
    ```bash
-   jokenPO.php
+   web jokenPO.php
    ```
 ---
 ## 📂 Estrutura do Repositório
