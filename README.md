@@ -47,7 +47,7 @@ O projeto visa consolidar o aprendizado e podem ser utilizados como portfólio p
 ```
 ---
 ## 📖 Exemplos de Código
-
+```bash
 //<?php
 
    // if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -64,7 +64,7 @@ O projeto visa consolidar o aprendizado e podem ser utilizados como portfólio p
     //    echo "<p>R$ $valor_real_formatado equivalem a US$ $valor_usd_formatado</p>";
    // }
    // ?>
-
+```
 ---
 ## 🏆 Autor(es)
 
